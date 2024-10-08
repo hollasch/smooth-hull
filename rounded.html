@@ -184,7 +184,7 @@ var updateFunction = function() {
     }
 
     render (points);
-    window.setTimeout (updateFunction, 500);
+    window.setTimeout (updateFunction, pointDelta >= 0 ? 1000 : 500);
 };
 
 updateFunction();    // Launch the animation
