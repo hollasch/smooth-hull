@@ -1,5 +1,0 @@
-http://www.whizkidtech.redprince.net/bezier/circle/
-
-For circle of radius r, control segment is of length k, where
-
-    k = 4/3 * (sqrt(2) - 1)
