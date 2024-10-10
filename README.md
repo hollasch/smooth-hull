@@ -7,7 +7,7 @@ hull, and then show two different methods to generate a blob around them.
 
 Rounded Hull
 -------------
-[![Rounded Hull](./rounded-preview.png)](./rounded.html)
+[![Rounded Hull](./rounded-preview.png)](https://hollasch.github.io/smooth-hull/rounded.html)
 _Click on image to view an animated demonstration_
 
 This technique uses `d3.polygonHull`, then offsets each segment of the resulting polygon outwards,
@@ -17,7 +17,7 @@ no straight segments.
 
 Smooth Hull
 ------------
-[![Smooth Hull](./smooth-preview.png)](./smooth.html)
+[![Smooth Hull](./smooth-preview.png)](https://hollasch.github.io/smooth-hull/smooth.html)
 _Click on image to view an animated demonstration_
 
 This approach renders a loose enclosing hull around a scattered set of points using a rounded
